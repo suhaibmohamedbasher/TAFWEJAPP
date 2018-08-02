@@ -1,0 +1,96 @@
+<!--
+  Generated template for the DonePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!--<ion-header>
+
+  <ion-navbar>
+    <ion-title>done</ion-title>
+  </ion-navbar>
+
+</ion-header>-->
+
+
+<ion-content padding class="image_backround">
+  
+  <ion-grid>
+  <ion-row>
+    <ion-col col-12 style="margin-top:30px; ">
+      <img class="bio-image" style="width:140px;" src="assets/imgs/done_image.png"/>
+  </ion-col>
+  </ion-row>
+
+  
+  <ion-row>
+      <ion-col col-2></ion-col>
+      <ion-col col-8>
+        <ion-row>
+          <ion-col col-9><div class="done_text">تم التعرف على<br>هوية الحاج بنجاح</div></ion-col>
+          <ion-col col-3><img class="done_tick" src="assets/imgs/done_iocn.svg"/></ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col col-2></ion-col>
+  </ion-row>
+
+  <ion-row style="margin-top:20px;">
+    <ion-col col-6>
+      <div class="done_button">
+        <img src="assets/imgs/done_button.svg"/>
+      </div>
+      <div class="done_button_text">استعراض الهوية</div>
+    </ion-col>
+    <ion-col col-6>
+      <div class="done_button" style="height: 83px;">
+
+        <!--<ion-item>
+            <ion-label>Gender</ion-label>
+            <ion-select [(ngModel)]="gender">
+              <ion-option value="f">Female</ion-option>
+              <ion-option value="m">Male</ion-option>
+            </ion-select>
+          </ion-item>
+      </div>
+      <div class="done_button_text">اللغة  المفضلة</div>-->
+      <label class="item item-input item-select"></label>
+      <div class="input-label">اللغة</div>
+      <select style="width: 60px; margin-top: 10px;">
+          <option>العربية</option>
+          <option>English</option>
+          <option>French</option>
+          <option>Spanish</option>
+      </select>
+    </div>
+    <div class="done_button_text">اللغة  المفضلة</div>
+    </ion-col>
+  </ion-row>
+
+
+
+  <div class="watch_title_ar">
+شكراً لك
+    </div>
+
+
+  <div class="dots">
+    <ul>
+      <li><img src="assets/imgs/nonactive_dot.png"/></li>
+      <li><img src="assets/imgs/nonactive_dot.png"/></li>
+      <li><img src="assets/imgs/active_dot.png"/></li>
+      <li><img src="assets/imgs/nonactive_dot.png"/></li>
+    </ul>
+  </div>
+<div class="next_btn">
+<button (click)="lastNavigate();">
+  <span class="btn_ar">التالي</span>
+    <span><img src="assets/imgs/button_arrow.svg"/></span>
+  <span class="btn_en">Next</span></button>
+</div>
+  
+
+
+
+  </ion-grid>
+
+</ion-content>
